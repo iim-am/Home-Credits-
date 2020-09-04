@@ -1,0 +1,179 @@
+1. Sales and Product division want to know
+   what is the most revenue product that
+   already shipped.
+
+SELECT
+	a.productCode,
+    a.productName,
+    a.productLine,
+    a.productVendor,
+    SUM(a.gmv) AS gmv,
+    SUM(a.trx) AS trx,
+    SUM(a.user) AS 'user',
+    SUM(a.gmv/a.trx) AS aov,
+    SUM(a.revenue) AS revenue    
+FROM(
+	SELECT
+    	p.productCode,
+    	p.productName,
+    	p.productLine,
+    	p.productVendor,
+    	SUM(od.priceEach*od.quantityOrdered) AS gmv,
+    	COUNT(DISTINCT o.orderNumber) AS trx,
+    	COUNT(DISTINCT c.customerNumber) AS 'user',
+    	SUM((od.priceEach-p.buyPrice)*od.quantityOrdered) AS revenue
+    FROM products p
+    JOIN orderdetails od
+    ON p.productCode = od.productCode
+    JOIN orders o
+    ON od.orderNumber = o.orderNumber
+    JOIN customers c
+    ON o.customerNumber = c.customerNumber
+    WHERE o.status = 'shipped'
+    GROUP BY 1,2,3,4  
+) a
+GROUP BY 1
+ORDER BY 9 DESC **/
+
+
+
+
+2. Head of Sales want to know performance of the
+   employee
+
+SELECT
+	a.employeeNumber,
+    a.fullName,
+    SUM(a.amount) AS amount,
+    SUM(a.trx) AS total_trx,
+    SUM(a.revenue) AS revenue,
+    SUM(a.quantity) AS quantity,
+    SUM(a.uniq_cust) AS uniq_cust
+FROM(
+	SELECT
+    	e.employeeNumber,
+    	CONCAT(e.firstName,' ',e.lastName) AS fullName,
+    	SUM((od.priceEach*od.quantityOrdered)*o.customerNumber) AS amount,
+    	COUNT(DISTINCT o.orderNumber) AS trx,
+    	SUM((od.priceEach-p.buyPrice)*od.quantityOrdered) AS revenue,
+    	SUM(od.quantityOrdered*o.orderNumber) AS quantity,
+    	COUNT(DISTINCT c.customerNumber) AS uniq_cust
+    FROM employees e
+    JOIN customers c
+    ON e.employeeNumber = c.salesRepEmployeeNumber
+    JOIN orders o
+    ON c.customerNumber = o.customerNumber
+    JOIN orderdetails od
+    ON o.orderNumber = od.orderNumber
+    JOIN products p
+    ON od.productCode = p.productCode
+    GROUP BY 1,2
+) a
+GROUP BY 1
+ORDER BY 5 DESC **/
+
+
+
+
+3. Marketing Team want to know product
+   performances in every city that shipped in
+   monthly basis.
+
+SELECT
+	a.country,
+    a.state,
+    a.city,
+    a.productCode,
+    a.productName,
+    SUM(a.gmv) AS gmv,
+    SUM(a.trx) AS trx,
+    SUM(a.user) AS 'user',
+    SUM(a.gmv/a.trx) AS aov,
+    SUM(a.revenue) AS revenue
+FROM(
+	of.country,
+    of.state,
+    of.city,
+    p.productCode,
+    p.productName,
+    SUM(od.priceEach*od.quantityOrdered) AS gmv,
+    COUNT(DISTINCT o.orderNumber) AS trx,
+    COUNT(DISTINCT c.customerNumber) AS 'user',
+    SUM((od.priceEach-p.buyPrice)*od.quantityOrdered) AS revenue
+    FROM offices of
+    JOIN employees e
+    ON of.officeCode = e.officeCode
+    JOIN customers c
+    ON e.employeeNumber = c.salesRepEmployeeNumber
+    JOIN orders o
+    ON c.customerNumber = o.customerNumber
+    JOIN orderdetails od
+    ON o.orderNumber = od.orderNumber
+    JOIN products p
+    ON od.productCode = p.productCode
+    WHERE o.status = 'shipped'
+    GROUP BY 1,2,3,4,5
+) a
+GROUP BY 1,2,3,4,5
+ORDER BY 10 DESC
+
+
+
+4. Operation Division want to know how the
+   office perform.
+
+SELECT
+	a.officeCode,
+    a.country,
+    a.state,
+    a.city,
+    SUM(a.revenue) AS revenue,
+    SUM(a.revenue_shipped) AS revenue_shipped,
+    SUM(a.quantity) AS quantity,
+    SUM(a.unique_cust) AS unique_cust,
+    SUM(a.jumlah_order) AS jumlah_order,
+    SUM(a.status_shipped) AS status_shipped,
+    SUM(a.status_shipped/a.jumlah_order) AS shipped_rate
+FROM(
+	SELECT
+    	of.officeCode,
+    	of.country,
+    	of.state,
+    	of.city,
+    	SUM((od.priceEach-p.buyPrice)*od.quantityOrdered) AS revenue,
+    	b.revenue_shipped,
+    	SUM(od.quantityOrdered) AS quantity,
+    	COUNT(DISTINCT c.customerNumber) AS unique_cust,
+    	COUNT(DISTINCT o.orderNumber) AS jumlah_order,
+    	COUNT(DISTINCT b.orderNumber) AS status_shipped
+    FROM offices of
+    JOIN employees e
+    ON of.officeCode = e.officeCode
+    JOIN customers c
+    ON e.employeeNumber = c.salesRepEmployeeNumber
+    JOIN orders o
+    ON c.customerNumber = o.customerNumber
+    JOIN orderdetails od
+    ON o.orderNumber = od.orderNumber
+    JOIN products p
+    ON od.productCode = p.productCode
+    LEFT JOIN(
+        SELECT
+        	o.orderNumber,
+        	o.status,
+        	SUM((od.priceEach-p.buyPrice)*od.quantityOrdered) AS revenue_shipped
+        FROM orders o
+        JOIN orderdetails od
+        ON o.orderNumber = od.orderNumber
+        JOIN products p
+        ON od.productCode = p.productCode
+        WHERE o.status = "shipped"
+        GROUP BY 1,2
+    ) b
+    ON o.orderNumber = b.orderNumber
+    GROUP BY 1,2,3,4
+) a
+GROUP BY 1,2,3,4
+ORDER BY 5 DESC
+
+
