@@ -46,7 +46,7 @@ https://www.kaggle.com/c/grupo-bimbo-inventory-demand
    - Menggabungkan data klien dan produk yang dimodifikasi menjadi data train dan data test.
    - Menambahkan time series demand feature.
    - Menambahkan rata - rata frekuensi fitur ID.
-   - Mengkodekan variabel kategori.
+   - Membuat kode variabel kategori.
    - Menghapus data sebelum minggu ke 6.
    - Menulis data train dan test yang dimodifikasi ke CSV.
 
