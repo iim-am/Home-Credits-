@@ -14,7 +14,7 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 - [Telco Customer Churn](https://github.com/iim-am/Portofolio/blob/master/Data%20Analysis%20%26%20Visualisasi/Telco_Customer/code%20telco%20customer.ipynb): Memprediksi perilaku untuk mempertahankan pelanggan. Menganalisis semua data pelanggan yang relevan dan mengembangkan program retensi pelanggan yang terfokus.<br>
 
 ### Machine Learning	
--  Prediction Boston Housing Prices : Sebuah model untuk memprediksi nilai rumah tertentu di pasar real estat Boston menggunakan berbagai alat analisis statistik. Mengidentifikasi harga terbaik yang dapat dijual klien dengan menggunakan Machine Learning.<br>
+-  [Prediction Boston Housing Prices](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Boston-housing/boston_housing.ipynb) : Sebuah model untuk memprediksi nilai rumah tertentu di pasar real estat Boston menggunakan berbagai alat analisis statistik. Mengidentifikasi harga terbaik yang dapat dijual klien dengan menggunakan Machine Learning.<br>
 -  Supervised Learning: Prediksi Corona Virus, Membangun beberapa algoritma Supervised Learning yang berbeda untuk membangun sebuah model yang akurat memprediksi secara realtime setiap hari jumlah yang positif terkena virus, meninggal dan sembuh di Indonesia kemudian di cocokan dengan data yang di umumkan oleh mentri kesehatan.<br>
 -  Unsupervised Learning: Customers Segment, Menganalisis dataset yang berisi data tentang berbagai jumlah pengeluaran tahunan pelanggan dari beragam kategori produk untuk menemukan struktur internal, pola, dan knowlege.<br>
 	
