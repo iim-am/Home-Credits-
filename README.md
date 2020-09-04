@@ -19,10 +19,8 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 -  [Unsupervised Learning: Customers Segment](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Unsupervised%20Learning/customer_segments.ipynb): Menganalisis dataset yang berisi data tentang berbagai jumlah pengeluaran tahunan pelanggan dari beragam kategori produk untuk menemukan struktur internal, pola, dan knowlege.<br>
 	
 ## Project  
-- ##### Grupo Bimbo Inventary Demand.
-  laporan proyek untuk kompetisi Grupo Bimbo Inventory Demand Kaggle.
-Tujuan dari proyek ini adalah untuk mengembangkan model yang dapat memperkirakan permintaan persediaan untuk Grupo dengan akurat. Produk Bimbo didasarkan pada data penjualan historis.<br>
-- exploratory analysis: Explore product dan data Client dan temukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
+- _Grupo Bimbo Inventary Demand_ adalah laporan proyek untuk kompetisi Grupo Bimbo Inventory Demand Kaggle. Tujuan dari proyek ini adalah untuk mengembangkan model yang dapat memperkirakan permintaan persediaan untuk Grupo dengan akurat. Produk Bimbo didasarkan pada data penjualan historis.<br>
+1. exploratory analysis: Explore product dan data Client dan temukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
 - Machine Learning with Logistic Regression: Menggunakan Regresi Logistik untuk memprediksi apakah pengguna internet mengklik iklan atau tidak. 
 - Machine Learning with K Nearest Neighbours: Menggunakan K Nearst Neighbours untuk mengklasifikasikan beberapa contoh dari kumpulan data palsu menjadi dua kelas target, sambal memilih nilai terbaik untuk K menggunakan metode elbow. 
 - Machine Learning with Decision Trees and Random Forest: Menggunakan Decision Trees dan Random Forest untuk memprediksi apakah pemberi pinjaman akan membayar kembali pinjaman mereka. Menggunakan data dari kompetisi kaggle Home Credits.
