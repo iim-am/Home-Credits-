@@ -26,34 +26,34 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 	
 ## Project  
 #### Grupo Bimbo Inventory Demand
-This repository contains my project code and project report for the Grupo Bimbo Inventory Demand Kaggle competition.
-The goal of the project was to develop a model that could most accurately forecast inventory demand for Grupo
-Bimbo products baed on historical sales data.
-#### Competition Information and Data
-All information and data can be obtained from the Kaggle competition web page:
+ini merupakan proyek saya yang berisi laporan proyek untuk kompetisi Grupo Bimbo Inventory Demand Kaggle.
+Tujuan dari proyek ini adalah untuk mengembangkan model yang dapat memperkirakan permintaan persediaan untuk Grupo dengan sangat akurat
+Produk Bimbo didasarkan pada data penjualan historis.
+#### Data dan informasi  kompetisi
+Semua informasi dan data dapat diperoleh dari halaman web kompetisi Kaggle:
 https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 #### iPython Notebooks
 1. exploratory analysis: 
-   - Explores product and client data.
-   - Discovers new features that can be generated from NombreProducto and NombreCliente variables.
-
+   - Explores product dan data client.
+   - Menemukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
+   
 2. feature engineering:
-   - Takes the findings from the exploratory analysis and creates new product and client data sets with additional features.
+   - Mengambil temuan dari explore analisis dan membuat produk baru dan dataset klien dengan fitur tambahan.
 
 3. build:
-   - Load train, test, and modified client and products data.
-   - Merges modified client and products data into train and test data.
-   - Adds time series demand features.
-   - Adds mean of frequencies of id features.
-   - Encodes categorical variables.
-   - Removes data before Week 6.
-   - Writes modified train and test data to CSV.
+   - Load train, test dan memodifikasi data klien and data products.
+   - Menggabungkan data klien dan produk yang dimodifikasi menjadi data train dan data test.
+   - Menambahkan time series demand feature.
+   - Menambahkan rata - rata frekuensi fitur ID.
+   - Mengkodekan variabel kategori.
+   - Menghapus data sebelum minggu ke 6.
+   - Menulis data train dan test yang dimodifikasi ke CSV.
 
 4. predict: 
-   - Fits an XGBOOST model to the train data.
-   - Validate model results on a held-out subset of the train data.
-   - Generates results for the test data.
+   - cocokan dengan model XGBOOST untuk data train.
+   - validasi result model pada subset data train.
+   - Generates results untuk data test.
 
 5. free-form-visualization:
-   - Uses Matplotlib to plot weekly sales of the top 4 best-selling products in the train data. 
+   - Gunakan Matplotlib untuk merencanakan penjualan mingguan dari 4 produk terlaris teratas di data kereta.
