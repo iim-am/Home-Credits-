@@ -11,6 +11,7 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 ### Data analysis and Visualization
 - [Titanic Dataset - Analisis Eksplorasi](https://github.com/iim-am/Portofolio/blob/master/Data%20Analysis%20%26%20Visualisasi/Titanic/Titanic%20Dataset%20-%20Exploratory%20Analysis.ipynb): Analisis Eksplorasi penumpang di atas kapal RMS Titanic menggunakan Pandas dan visualisasi dengan matplotlib.<br>
 - [Super Store Dataset](https://github.com/iim-am/Portofolio/blob/master/Data%20Analysis%20%26%20Visualisasi/Superstore/code%20superstore.ipynb) – menganalisis data dari super Store menggunakan pandas kemudian memvisualisasikannya dengan matplotlib sehingga didapat plot linier,scatter, barchart dan box untuk membandingkan penjualan dan keuntungan dari data superstore. <br>
+- Telco Customer Churn: Memprediksi perilaku untuk mempertahankan pelanggan. Menganalisis semua data pelanggan yang relevan dan mengembangkan program retensi pelanggan yang terfokus.<br>
 
 ### Machine Learning	
 -  Prediction Boston Housing Prices : Sebuah model untuk memprediksi nilai rumah tertentu di pasar real estat Boston menggunakan berbagai alat analisis statistik. Mengidentifikasi harga terbaik yang dapat dijual klien dengan menggunakan Machine Learning.<br>
