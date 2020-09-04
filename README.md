@@ -5,8 +5,12 @@
 Database classicmodels – Exploratory Analysis: Menganalisis dan mengexplore data dari Classic Models menggunakan Query SQL seperti menghitung komisi untuk setiap perwakilan penjualan dengan asumsi komisi 5% dari nilai pesanan, menghitung waktu rata-rata antara tanggal pesanan dan tanggal pengiriman untuk setiap pelanggan yang dipesan dengan selisih terbesar dan menghitung laba yang dihasilkan oleh setiap pelanggan berdasarkan pesanan mereka.
 
 ### •	Statistik
-	Iris dataset: Mengexplore dan menganalisis berdasarkan output statistik seperti Count, Mean, Median, Standar Deviasi, Min, Max , Quartile serta visualisasi yang ditampilkan<br>
-	dengan boxplot sehingga dapat diketahui  ukuran tendensi sentral dan ukuran penyebaran (keragaman) data pengamatan. Selain itu dengan visualisai ini juga bisa melihat outlier dari sebaran data tersebut. Sedangkan untuk menentukan apakah hipotesis sesuai atau tidak, maka dapat menentukkannya dengan melihat keakurasian data yang sudah<br> dimodelkan dengan Machine Learning sehingga dapat mengevaluasi keakurasian model tersebut. Dari hasil preposisi dan modeling, pada data train akurasi model berada pada angka<br> 100% dan pada data test akurasi model menunjukkan angka 98%. Dengan perbedaan akurasi yang cenderung tidak signifikan, bisa dikatakan bahwa model tersebut tidak overfit. Dengan<br> demikian, model ini bisa dikatakan model yang sudah cukup baik untuk mengklasifikasikan Dataset Iris.
+	Iris dataset: Mengexplore dan menganalisis berdasarkan output statistik seperti Count, Mean, Median, Standar Deviasi, Min, Max , Quartile serta <br>
+	visualisasi yang ditampilkan dengan boxplot sehingga dapat diketahui  ukuran tendensi sentral dan ukuran penyebaran (keragaman) data pengamatan. Selain itu dengan visualisai <br>
+	ini juga bisa melihat outlier dari sebaran data tersebut. Sedangkan untuk menentukan apakah hipotesis sesuai atau tidak, maka dapat menentukkannya dengan melihat keakurasian<br>
+	data yang sudah<br> dimodelkan dengan Machine Learning sehingga dapat mengevaluasi keakurasian model tersebut. Dari hasil preposisi dan modeling, pada data train akurasi model<br>
+	berada pada angka<br> 100% dan pada data test akurasi model menunjukkan angka 98%. Dengan perbedaan akurasi yang cenderung tidak signifikan, bisa dikatakan bahwa model<br> 
+	tersebut tidak overfit. Dengan<br> demikian, model ini bisa dikatakan model yang sudah cukup baik untuk mengklasifikasikan Dataset Iris.
 ### •	Data analysis and Visualization
 o Titanic Dataset - Analisis Eksplorasi: Analisis Eksplorasi penumpang di atas kapal RMS Titanic menggunakan Pandas dan visualisasi dengan matplotlib.<br>
 o Super Store Dataset – menganalisis data dari super Store menggunakan pandas kemudian memvisualisasikannya dengan matplotlib sehingga didapat plot linier,scatter, barchart dan box untuk membandingkan penjualan dan keuntungan dari data superstore. <br>
