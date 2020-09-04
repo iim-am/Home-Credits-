@@ -18,14 +18,9 @@
 -  Unsupervised Learning: Customers Segment, Menganalisis dataset yang berisi data tentang berbagai jumlah pengeluaran tahunan pelanggan dari beragam kategori produk untuk menemukan struktur internal, pola, dan knowlege.<br>
 	
 ## Project  
-- ### Grupo Bimbo (Kaggle Kompetisi)
-Mengembangkan model untuk memperkirakan permintaan inventaris secara akurat berdasarkan data penjualan dengan menggunakan Machine learning. Model yang digunakan yaitu K-fold validation, lasso linier serta metode classification. 
-- ### Machine Learning with Logistic Regression
-Menggunakan Regresi Logistik untuk memprediksi apakah pengguna internet mengklik iklan atau tidak. 
-- ### Machine Learning with K Nearest Neighbours
-Menggunakan K Nearst Neighbours untuk mengklasifikasikan beberapa contoh dari kumpulan data palsu menjadi dua kelas target, sambal memilih nilai terbaik untuk K menggunakan metode elbow. 
-- ### Machine Learning with Decision Trees and Random Forest
-Menggunakan Decision Trees dan Random Forest untuk memprediksi apakah pemberi pinjaman akan membayar kembali pinjaman mereka. Menggunakan data dari kompetisi kaggle Home Credits.
-- ### Covid 19 in Indonesia
-Menggunakan data covid 19 di indonesioa yang tersedia pada kaggle kemudian mengembangkan model regression untuk memprediksi kasus orang yang positif korona di Indonesia. Hasil darii prediksi tersebut kemudian dibandingkan dengan pengumuman setiap hari oleh mentri kesehatan. Nilai Korelasi yang diperoleh 98,99%.  
+- Grupo Bimbo (Kaggle Kompetisi): Mengembangkan model untuk memperkirakan permintaan inventaris secara akurat berdasarkan data penjualan dengan menggunakan Machine learning. Model yang digunakan yaitu K-fold validation, lasso linier serta metode classification. 
+- Machine Learning with Logistic Regression: Menggunakan Regresi Logistik untuk memprediksi apakah pengguna internet mengklik iklan atau tidak. 
+- Machine Learning with K Nearest Neighbours: Menggunakan K Nearst Neighbours untuk mengklasifikasikan beberapa contoh dari kumpulan data palsu menjadi dua kelas target, sambal memilih nilai terbaik untuk K menggunakan metode elbow. 
+- Machine Learning with Decision Trees and Random Forest: Menggunakan Decision Trees dan Random Forest untuk memprediksi apakah pemberi pinjaman akan membayar kembali pinjaman mereka. Menggunakan data dari kompetisi kaggle Home Credits.
+- Covid 19 in Indonesia: Menggunakan data covid 19 di indonesioa yang tersedia pada kaggle kemudian mengembangkan model regression untuk memprediksi kasus orang yang positif korona di Indonesia. Hasil darii prediksi tersebut kemudian dibandingkan dengan pengumuman setiap hari oleh mentri kesehatan. Nilai Korelasi yang diperoleh 98,99%.  
 
