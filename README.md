@@ -19,7 +19,7 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 -  [Unsupervised Learning: Customers Segment](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Unsupervised%20Learning/customer_segments.ipynb): Menganalisis dataset yang berisi data tentang berbagai jumlah pengeluaran tahunan pelanggan dari beragam kategori produk untuk menemukan struktur internal, pola, dan knowlege.<br>
 
 ## Micro Project
-- Machine Learning with Logistic Regression: Menggunakan Regresi Logistik untuk memprediksi apakah pengguna internet mengklik iklan atau tidak. 
+- [Machine Learning with Logistic Regression](https://github.com/iim-am/Portofolio/blob/master/Micro%20Project/Machine%20Learning%20with%20Logistic%20Regression/Machine%20Learning%20with%20Logistic%20Regression.ipynb): Menggunakan Regresi Logistik untuk memprediksi apakah pengguna internet mengklik iklan atau tidak. 
 - Machine Learning with K Nearest Neighbours: Menggunakan K Nearst Neighbours untuk mengklasifikasikan beberapa contoh dari kumpulan data palsu menjadi dua kelas target, sambal memilih nilai terbaik untuk K menggunakan metode elbow. 
 - Machine Learning with Decision Trees and Random Forest: Menggunakan Decision Trees dan Random Forest untuk memprediksi apakah pemberi pinjaman akan membayar kembali pinjaman mereka. Menggunakan data dari kompetisi kaggle Home Credits.
 - Covid 19 in Indonesia: Menggunakan data covid 19 di indonesioa yang tersedia pada kaggle kemudian mengembangkan model regression untuk memprediksi kasus orang yang positif korona di Indonesia. Hasil darii prediksi tersebut kemudian dibandingkan dengan pengumuman setiap hari oleh mentri kesehatan. Nilai Korelasi yang diperoleh 98,99%.  
