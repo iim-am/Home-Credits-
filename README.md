@@ -15,7 +15,7 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 
 ### Machine Learning	
 -  [Prediction Boston Housing Prices](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Boston-housing/boston_housing.ipynb) : Sebuah model untuk memprediksi nilai rumah tertentu di pasar real estat Boston menggunakan berbagai alat analisis statistik. Mengidentifikasi harga terbaik yang dapat dijual klien dengan menggunakan Machine Learning.<br>
--  Supervised Learning: Finding donors for Charity: Menguji beberapa algoritma Superviced Learning untuk membuat model yang secara akurat memprediksi apakah seseorang menghasilkan lebih dari $50.000 untuk mengidentifikasi kemungkinan donor nirlaba fiktif<br>
+-  [Supervised Learning: Finding donors for Charity](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Supervised%20Learning/finding_donors.ipynb): Menguji beberapa algoritma Superviced Learning untuk membuat model yang secara akurat memprediksi apakah seseorang menghasilkan lebih dari $50.000 untuk mengidentifikasi kemungkinan donor nirlaba fiktif<br>
 -  Unsupervised Learning: Customers Segment, Menganalisis dataset yang berisi data tentang berbagai jumlah pengeluaran tahunan pelanggan dari beragam kategori produk untuk menemukan struktur internal, pola, dan knowlege.<br>
 	
 ## Project  
