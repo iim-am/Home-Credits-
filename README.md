@@ -16,7 +16,7 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 ### Machine Learning	
 -  [Prediction Boston Housing Prices](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Boston-housing/boston_housing.ipynb) : Sebuah model untuk memprediksi nilai rumah tertentu di pasar real estat Boston menggunakan berbagai alat analisis statistik. Mengidentifikasi harga terbaik yang dapat dijual klien dengan menggunakan Machine Learning.<br>
 -  [Supervised Learning: Finding donors for Charity](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Supervised%20Learning/finding_donors.ipynb): Menguji beberapa algoritma Superviced Learning untuk membuat model yang secara akurat memprediksi apakah seseorang menghasilkan lebih dari $50.000 untuk mengidentifikasi kemungkinan donor nirlaba fiktif<br>
--  Unsupervised Learning: Customers Segment, Menganalisis dataset yang berisi data tentang berbagai jumlah pengeluaran tahunan pelanggan dari beragam kategori produk untuk menemukan struktur internal, pola, dan knowlege.<br>
+-  [Unsupervised Learning: Customers Segment](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Unsupervised%20Learning/customer_segments.ipynb): Menganalisis dataset yang berisi data tentang berbagai jumlah pengeluaran tahunan pelanggan dari beragam kategori produk untuk menemukan struktur internal, pola, dan knowlege.<br>
 	
 ## Project  
 - Grupo Bimbo (Kaggle Kompetisi): Mengembangkan model untuk memperkirakan permintaan inventaris secara akurat berdasarkan data penjualan dengan menggunakan Machine learning. Model yang digunakan yaitu K-fold validation, lasso linier serta metode classification. 
