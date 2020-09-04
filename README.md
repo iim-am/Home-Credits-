@@ -22,9 +22,7 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 - ##### Grupo Bimbo Inventary Demand.
   laporan proyek untuk kompetisi Grupo Bimbo Inventory Demand Kaggle.
 Tujuan dari proyek ini adalah untuk mengembangkan model yang dapat memperkirakan permintaan persediaan untuk Grupo dengan akurat. Produk Bimbo didasarkan pada data penjualan historis.<br>
-1. exploratory analysis:
-- Explore product dan data Client
-- Menemukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
+- exploratory analysis: Explore product dan data Client dan temukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
 - Machine Learning with Logistic Regression: Menggunakan Regresi Logistik untuk memprediksi apakah pengguna internet mengklik iklan atau tidak. 
 - Machine Learning with K Nearest Neighbours: Menggunakan K Nearst Neighbours untuk mengklasifikasikan beberapa contoh dari kumpulan data palsu menjadi dua kelas target, sambal memilih nilai terbaik untuk K menggunakan metode elbow. 
 - Machine Learning with Decision Trees and Random Forest: Menggunakan Decision Trees dan Random Forest untuk memprediksi apakah pemberi pinjaman akan membayar kembali pinjaman mereka. Menggunakan data dari kompetisi kaggle Home Credits.
