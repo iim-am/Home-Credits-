@@ -17,26 +17,26 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 -  [Prediction Boston Housing Prices](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Boston-housing/boston_housing.ipynb) : Sebuah model untuk memprediksi nilai rumah tertentu di pasar real estat Boston menggunakan berbagai alat analisis statistik. Mengidentifikasi harga terbaik yang dapat dijual klien dengan menggunakan Machine Learning.<br>
 -  [Supervised Learning: Finding donors for Charity](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Supervised%20Learning/finding_donors.ipynb): Menguji beberapa algoritma Superviced Learning untuk membuat model yang secara akurat memprediksi apakah seseorang menghasilkan lebih dari $50.000 untuk mengidentifikasi kemungkinan donor nirlaba fiktif<br>
 -  [Unsupervised Learning: Customers Segment](https://github.com/iim-am/Portofolio/blob/master/Machine%20Learning/Unsupervised%20Learning/customer_segments.ipynb): Menganalisis dataset yang berisi data tentang berbagai jumlah pengeluaran tahunan pelanggan dari beragam kategori produk untuk menemukan struktur internal, pola, dan knowlege.<br>
+
+## Micro Project
+- Machine Learning with Logistic Regression: Menggunakan Regresi Logistik untuk memprediksi apakah pengguna internet mengklik iklan atau tidak. 
+- Machine Learning with K Nearest Neighbours: Menggunakan K Nearst Neighbours untuk mengklasifikasikan beberapa contoh dari kumpulan data palsu menjadi dua kelas target, sambal memilih nilai terbaik untuk K menggunakan metode elbow. 
+- Machine Learning with Decision Trees and Random Forest: Menggunakan Decision Trees dan Random Forest untuk memprediksi apakah pemberi pinjaman akan membayar kembali pinjaman mereka. Menggunakan data dari kompetisi kaggle Home Credits.
+- Covid 19 in Indonesia: Menggunakan data covid 19 di indonesioa yang tersedia pada kaggle kemudian mengembangkan model regression untuk memprediksi kasus orang yang positif korona di Indonesia. Hasil darii prediksi tersebut kemudian dibandingkan dengan pengumuman setiap hari oleh mentri kesehatan. Nilai Korelasi yang diperoleh 98,99%.  
 	
 ## Project  
-- ####Grupo Bimbo Inventory Demand
+#### Grupo Bimbo Inventory Demand
 This repository contains my project code and project report for the Grupo Bimbo Inventory Demand Kaggle competition.
 The goal of the project was to develop a model that could most accurately forecast inventory demand for Grupo
 Bimbo products baed on historical sales data.
-
-- ####Competition Information and Data
+#### Competition Information and Data
 All information and data can be obtained from the Kaggle competition web page:
 https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
-- ####iPython Notebooks
+- #### iPython Notebooks
     - Exploratory analysis: Explores product and client data and Discovers new features that can be generated from NombreProducto and NombreCliente variables.
     - Feature engineering: Takes the findings from the exploratory analysis and creates new product and client data sets with additional features.
     - Build: Load train, test, and modified client and products data. Merges modified client and products data into train and test data. Adds time series demand features.Adds mean of frequencies of id features. Encodes categorical variables. Removes data before Week 6. Writes modified train and test data to CSV.
     - predict: Fits an XGBOOST model to the train data. Validate model results on a held-out subset of the train data. Generates results for the test data.
     - free-form-visualization: Uses Matplotlib to plot weekly sales of the top 4 best-selling products in the train data. 
-
-- Machine Learning with Logistic Regression: Menggunakan Regresi Logistik untuk memprediksi apakah pengguna internet mengklik iklan atau tidak. 
-- Machine Learning with K Nearest Neighbours: Menggunakan K Nearst Neighbours untuk mengklasifikasikan beberapa contoh dari kumpulan data palsu menjadi dua kelas target, sambal memilih nilai terbaik untuk K menggunakan metode elbow. 
-- Machine Learning with Decision Trees and Random Forest: Menggunakan Decision Trees dan Random Forest untuk memprediksi apakah pemberi pinjaman akan membayar kembali pinjaman mereka. Menggunakan data dari kompetisi kaggle Home Credits.
-- Covid 19 in Indonesia: Menggunakan data covid 19 di indonesioa yang tersedia pada kaggle kemudian mengembangkan model regression untuk memprediksi kasus orang yang positif korona di Indonesia. Hasil darii prediksi tersebut kemudian dibandingkan dengan pengumuman setiap hari oleh mentri kesehatan. Nilai Korelasi yang diperoleh 98,99%.  
 
