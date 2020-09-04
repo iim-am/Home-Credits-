@@ -35,14 +35,14 @@ https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 #### iPython Notebooks
 1. exploratory analysis: 
-   - Explores product dan data client.
+   - Explore produk dan data klien.
    - Menemukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
    
 2. feature engineering:
-   - Mengambil temuan dari explore analisis dan membuat produk baru dan dataset klien dengan fitur tambahan.
+   - Mengambil temuan dari explore analisis kemudian membuat produk baru dan dataset klien dengan fitur tambahan.
 
 3. build:
-   - Load train, test dan memodifikasi data klien and data products.
+   - menjalankan data train, test kemudian memodifikasi data klien dan data products.
    - Menggabungkan data klien dan produk yang dimodifikasi menjadi data train dan data test.
    - Menambahkan time series demand feature.
    - Menambahkan rata - rata frekuensi fitur ID.
