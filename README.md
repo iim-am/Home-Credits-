@@ -10,7 +10,7 @@ Repository ini berisi portofolio proyek data science yang saya buat. Semua penge
 
 ### Data analysis and Visualization
 - [Titanic Dataset - Analisis Eksplorasi](https://github.com/iim-am/Portofolio/blob/master/Data%20Analysis%20%26%20Visualisasi/Titanic/Titanic%20Dataset%20-%20Exploratory%20Analysis.ipynb): Analisis Eksplorasi penumpang di atas kapal RMS Titanic menggunakan Pandas dan visualisasi dengan matplotlib.<br>
-- Super Store Dataset – menganalisis data dari super Store menggunakan pandas kemudian memvisualisasikannya dengan matplotlib sehingga didapat plot linier,scatter, barchart dan box untuk membandingkan penjualan dan keuntungan dari data superstore. <br>
+- [Super Store Dataset](https://github.com/iim-am/Portofolio/blob/master/Data%20Analysis%20%26%20Visualisasi/Superstore/code%20superstore.ipynb) – menganalisis data dari super Store menggunakan pandas kemudian memvisualisasikannya dengan matplotlib sehingga didapat plot linier,scatter, barchart dan box untuk membandingkan penjualan dan keuntungan dari data superstore. <br>
 -  Stock Market Analysis for Tech Stocks: Analisis technology stocks termasuk perubahan harga dari waktu ke waktu, daily retuns, dan prediksi behavior Stock dengan visualisasi seaborn.<br> 
 -  Behavioral Risk Factor Surveillance System(BRFSS) 2013: Exploratory Data Analysis: Analisis eksplorasi set data BRFSS-2013, yang berfokus pada penyelidikan hubungan antara pendidikan dan kebiasaan makan, kesehatan tidur dan mental, merokok dan minum serta kesehatan umum seseorang dengan visualisasi matplotlib.<br>
 
