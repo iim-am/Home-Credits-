@@ -34,14 +34,14 @@ Semua informasi dan data dapat diperoleh dari halaman web kompetisi Kaggle:
 https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 #### iPython Notebooks
-1. [Exploratory Analysis](https://github.com/iim-am/Portofolio/blob/master/Project/Code/exploratory%20analysis.ipynb): 
+1. [Exploratory Analysis](https://github.com/iim-am/Portofolio/blob/master/Project/Code/exploratory%20analysis.ipynb) 
    - Explore produk dan data klien.
    - Menemukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
    
-2. [Feature Engineering](https://github.com/iim-am/Portofolio/blob/master/Project/Code/feature%20engineering.ipynb):
+2. [Feature Engineering](https://github.com/iim-am/Portofolio/blob/master/Project/Code/feature%20engineering.ipynb)
    - Mengambil temuan dari explore analisis kemudian membuat produk baru dan dataset klien dengan fitur tambahan.
 
-3. build:
+3. [build](https://github.com/iim-am/Portofolio/blob/master/Project/Code/build.ipynb)
    - menjalankan data train, test kemudian memodifikasi data klien dan data products.
    - Menggabungkan data klien dan produk yang dimodifikasi menjadi data train dan data test.
    - Menambahkan time series demand feature.
