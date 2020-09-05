@@ -34,7 +34,7 @@ Semua informasi dan data dapat diperoleh dari halaman web kompetisi Kaggle:
 https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 #### iPython Notebooks
-1. exploratory analysis: 
+1. [exploratory analysis](https://github.com/iim-am/Portofolio/blob/master/Project/Code/exploratory%20analysis.ipynb): 
    - Explore produk dan data klien.
    - Menemukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
    
