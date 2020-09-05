@@ -35,25 +35,25 @@ https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 #### iPython Notebooks
 1.  [Exploratory Analysis](https://github.com/iim-am/Portofolio/blob/master/Project/Code/exploratory%20analysis.ipynb) 
-   - Explore produk dan data klien.
-   - Menemukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
+     - Explore produk dan data klien.
+     - Menemukan fitur baru yang dapat dihasilkan dari variabel NombreProducto dan NombreCliente.
    
 2.  [Feature Engineering](https://github.com/iim-am/Portofolio/blob/master/Project/Code/feature%20engineering.ipynb)
-   - Mengambil temuan dari explore analisis kemudian membuat produk baru dan dataset klien dengan fitur tambahan.
+     - Mengambil temuan dari explore analisis kemudian membuat produk baru dan dataset klien dengan fitur tambahan.
 
 3.  [Build](https://github.com/iim-am/Portofolio/blob/master/Project/Code/build.ipynb)
-   - menjalankan data train, test kemudian memodifikasi data klien dan data products.
-   - Menggabungkan data klien dan produk yang dimodifikasi menjadi data train dan data test.
-   - Menambahkan time series demand feature.
-   - Menambahkan rata - rata frekuensi fitur ID.
-   - Membuat kode variabel kategori.
-   - Menghapus data sebelum minggu ke 6.
-   - Menulis data train dan test yang dimodifikasi ke CSV.
+     - menjalankan data train, test kemudian memodifikasi data klien dan data products.
+     - Menggabungkan data klien dan produk yang dimodifikasi menjadi data train dan data test.
+     - Menambahkan time series demand feature.
+     - Menambahkan rata - rata frekuensi fitur ID.
+     - Membuat kode variabel kategori.
+     - Menghapus data sebelum minggu ke 6.
+     - Menulis data train dan test yang dimodifikasi ke CSV.
 
 4.  [Predict](https://github.com/iim-am/Portofolio/blob/master/Project/Code/predict.ipynb) 
-   - cocokan dengan model XGBOOST untuk data train.
-   - validasi result model pada subset data train.
-   - Generates results untuk data test.
+     - cocokan dengan model XGBOOST untuk data train.
+     - validasi result model pada subset data train.
+     - Generates results untuk data test.
 
-5. free-form-visualization:
-   - Gunakan Matplotlib untuk merencanakan penjualan mingguan dari 4 produk terlaris teratas di data kereta.
+5. [Free-form-visualization](https://github.com/iim-am/Portofolio/blob/master/Project/Code/free-form-visualization.ipynb)
+     - Gunakan Matplotlib untuk merencanakan penjualan mingguan dari 4 produk terlaris teratas di data kereta.
