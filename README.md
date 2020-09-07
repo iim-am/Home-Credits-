@@ -56,4 +56,4 @@ https://www.kaggle.com/c/grupo-bimbo-inventory-demand
      - Generates results untuk data test.
 
 5. [Free-form-visualization](https://github.com/iim-am/Portofolio/blob/master/Project/Code/free-form-visualization.ipynb)
-     - Gunakan Matplotlib untuk merencanakan penjualan mingguan dari 4 produk terlaris teratas di data kereta.
+     - Gunakan Matplotlib untuk merencanakan penjualan mingguan dari 4 produk terlaris teratas di data train.
