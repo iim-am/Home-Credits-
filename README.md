@@ -59,4 +59,4 @@ https://www.kaggle.com/c/grupo-bimbo-inventory-demand
      - Gunakan Matplotlib untuk merencanakan penjualan mingguan dari 4 produk terlaris teratas di data train.
 
 ## Sertifikat 
-#### [Sertifikat Data Science Shift Academy] (https://github.com/iim-am/Shift-Academy-Data-Science/blob/master/Project/Code/free-form-visualization.ipynb) Berikut bukti sertifikat data science bootcamp shift academy
+- [Sertifikat Data Science Shift Academy] (https://github.com/iim-am/Shift-Academy-Data-Science/blob/master/Project/Code/free-form-visualization.ipynb) Berikut bukti sertifikat data science bootcamp shift academy
