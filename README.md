@@ -60,6 +60,6 @@ https://www.kaggle.com/c/grupo-bimbo-inventory-demand
 
 ## Sertifikat 
 #### [Certified Data Science Bootcamp Shift Academy ](https://github.com/iim-am/Shift-Academy-Data-Science/blob/master/Sertifikat%20Data%20Science%20Shift%20Academy.pdf)  
-- Diterbitkan Jun 2020 <br>
-- ID Kredensial DS1-02062020013 
+- Diterbitkan   : Juni 2020 <br>
+- ID Kredensial : DS1-02062020013 
   
