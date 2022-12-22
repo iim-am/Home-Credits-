@@ -1,4 +1,4 @@
-#  SHIFT ACADEMY BOOTCAMP DATA SCIENCE
+#  Portofolio
 
 Repository ini berisi portofolio proyek data science yang saya buat. Semua pengerjaan dibuat dalam bentuk iPython. 
 
